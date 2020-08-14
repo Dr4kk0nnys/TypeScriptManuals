@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "ES2015", // async functions
+            "DOM" // basic javascript ( console.log )
+        ]
+    }
+}
