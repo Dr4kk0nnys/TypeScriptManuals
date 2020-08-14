@@ -15,3 +15,6 @@ This manuals will be the conjunction of many typescript tutorials, books and ope
 ## Who this manuals are for ?
 *Everyone*.  
 To either beginners and experts to even the [creator](https://www.google.com/search?channel=fs&client=ubuntu&q=typescript+creator) of typescript.  
+
+## Read
+Check out the [manuals.md](https://github.com/Dr4kk0nnys/TypeScriptManuals/blob/master/Manuals.md) file.  
