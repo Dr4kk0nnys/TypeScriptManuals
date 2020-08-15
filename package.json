@@ -6,5 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "trun": "yarn tsc -p ./tsconfig.json && nodejs main.js"
   }
 }

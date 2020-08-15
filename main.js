@@ -21,4 +21,31 @@ function a(arg) {
         console.log('It is not null!');
     }
 }
-a(undefined);
+a('0');
+function b() {
+    if (1 + 1 == 2) {
+        return { a: 1, b: 2 };
+    }
+    return { a: 1, b: undefined };
+}
+function c(a, b) {
+    if (1 + 1 == 2) {
+        return { a: 1, b: 2 };
+    }
+    return { a: 1 };
+}
+function d() {
+    console.log(this);
+}
+// d();
+function e(arg) {
+    const e1 = arg;
+    return function () {
+        console.log(e1);
+    };
+}
+const e2 = e('Hello World');
+e2();
+const n = 'Dr4kk0nnys';
+const hasN = !n;
+console.log(hasN);

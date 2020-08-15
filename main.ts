@@ -61,3 +61,38 @@ function c(a: number, b?: number): Object {
 
     return { a: 1 };
 }
+
+
+function d(): void {
+    console.log(this);
+}
+
+// d();
+
+
+function e(arg: string) {
+    const e1 = arg;
+
+    return function () {
+        console.log(e1);
+    }
+}
+
+const e2 = e('Hello World');
+
+e2();
+
+
+const n = 'Dr4kk0nnys';
+const hasN = !!n;
+
+console.log(hasN);
+
+
+class Baz {
+    members: number[] = [];
+
+    add(x: number): void {
+        this.members.push(x)
+    }
+}
